@@ -9,6 +9,7 @@ Blooms & Co is a rapidly growing floral e-commerce startup that allows customers
 Solution
 This Flower Classifier Project demonstrates how a convolutional neural network (CNN) can solve Blooms & Co’s identification challenge. By training on a dataset of labeled flower images, the model can accurately categorize each image into specific species (e.g., daisies, roses, sunflowers). This reduces manual overhead, speeds up the workflow, and ensures a more consistent user experience. While this repository uses a sample dataset and structure, the approach can be adapted to real-world environments, helping any organization that relies on quick, accurate flower identification.
 
+
 ## 🌸 Project Overview
 - **Dataset**: Oxford 102 Flower Dataset
 - **Model**: ResNet34 with custom classifier head
