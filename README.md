@@ -26,3 +26,24 @@ This Flower Classifier Project demonstrates how a convolutional neural network (
 git clone https://github.com/yourusername/FlowerClassifier.git
 cd FlowerClassifier
 pip install -r requirements.txt 
+
+```
+## 🚀 Usage
+Training:
+```bash
+python src/train.py data_dir --arch resnet34 --lr 0.001 --epochs 5 --gpu
+```
+Prediction:
+```bash
+python src/predict.py input_image.jpg checkpoint.pth --top_k 5 --category_names cat_to_name.json
+```
+
+## 📊 Results
+Metric	        Value
+Validation Acc	70%
+Test Accuracy	  73%
+
+## 📚 Resources
+Dataset Source
+
+PyTorch Documentation
