@@ -1,1 +1,18 @@
- 
+ # PyTorch models
+*.pth
+*.pt
+
+# Data folders
+/data/
+/models/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
