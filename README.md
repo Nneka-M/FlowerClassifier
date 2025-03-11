@@ -27,6 +27,8 @@ This Flower Classifier Project demonstrates how a convolutional neural network (
   -Technical: 73% test accuracy, 92% top-5 accuracy
   
   -Business: 30% faster order processing, 50% fewer customer complaints
+  
+![Flower Classification Demo](assets/training_curves.png)
 
 ## Data Sources and Methodology ##
 
